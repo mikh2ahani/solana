@@ -3,7 +3,7 @@ dir = "target/nextest"
 
 [profile.ci]
 failure-output = "immediate-final"
-fail-fast = false
+fail-fast = true
 
 [profile.ci.junit]
 path = "junit.xml"
